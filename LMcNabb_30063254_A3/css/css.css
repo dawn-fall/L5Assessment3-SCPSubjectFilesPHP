@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body{
+    font-family: 'Cinzel', serif;
+    background-color: rgb(227, 227, 227);
+}
+
+a{
+    color: white;
+}
+
+.grad {
+    background-image: linear-gradient(rgb(44, 10, 10), rgb(21, 18, 18));
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.card-title {
+    margin-bottom: 10px;
+}
+  
+.card-text {
+    flex-grow: 1;
+}
+
+.subject{
+    max-width: 85vw;
+    height:auto;
+}
+
+p{
+    font-size: medium;
+}
+
+.container-bg, .container {
+    border-radius: 25px;
+    padding: 5px;
+    background-color: rgb(227, 227, 227);
+}
+
+li, ol, ul, nav{
+    list-style: none
+}
